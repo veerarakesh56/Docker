@@ -17,7 +17,7 @@ There are 2 different ways how docker solves this problem.
 Volumes aims to solve the same problem by providing a way to store data on the host file system, separate from the container's file system, 
 so that the data can persist even if the container is deleted and recreated.
 
-![image](https://user-images.githubusercontent.com/43399466/218018334-286d8949-d155-4d55-80bc-24827b02f9b1.png)
+![218018334-286d8949-d155-4d55-80bc-24827b02f9b1](https://github.com/veerarakesh56/Docker/assets/171412850/11c6c712-7c5c-405d-b569-b8ce75a03f5d)
 
 
 Volumes can be created and managed using the docker volume command. You can create a new volume using the following command:
