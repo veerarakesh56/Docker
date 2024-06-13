@@ -22,7 +22,7 @@ xxxxxxxxxxxx        bridge              bridge
 The default network mode in Docker. It creates a private network between the host and containers, allowing
 containers to communicate with each other and with the host system.
 
-![image](https://user-images.githubusercontent.com/43399466/217745543-f40e5614-ac34-4b78-85a9-91b24512388d.png)
+![217745543-f40e5614-ac34-4b78-85a9-91b24512388d](https://github.com/veerarakesh56/Docker/assets/171412850/119ba30e-1e80-4790-a268-6645229f747c)
 
 If you want to secure your containers and isolate them from the default bridge network you can also create your own bridge network.
 
@@ -53,7 +53,7 @@ the other is attached to the my_bridge network.
 
 These containers are completely isolated with their private networks and cannot talk to each other.
 
-![image](https://user-images.githubusercontent.com/43399466/217748680-8beefd0a-8181-4752-a098-a905ebed5d2a.png)
+![217748680-8beefd0a-8181-4752-a098-a905ebed5d2a](https://github.com/veerarakesh56/Docker/assets/171412850/7e3e6157-7834-4816-ae31-672053eff0be)
 
 
 However, you can at any point of time, attach the first container to my_bridge network and enable communication
@@ -62,7 +62,7 @@ However, you can at any point of time, attach the first container to my_bridge n
 docker network connect my_bridge web
 ```
 
-![image](https://user-images.githubusercontent.com/43399466/217748726-7bb347d0-3736-4f89-bdff-31d240b15150.png)
+![217748726-7bb347d0-3736-4f89-bdff-31d240b15150](https://github.com/veerarakesh56/Docker/assets/171412850/93c094c9-dc04-4632-975a-78905d15fb02)
 
 
 ### Host Networking
