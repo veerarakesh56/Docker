@@ -34,7 +34,7 @@ Let's try to understand this with an example:
 
 Below is the screenshot of official ubuntu base image which you can use for your container. It's just ~ 22 MB, isn't it very small ? on a contrary if you look at official ubuntu VM image it will be close to ~ 2.3 GB. So the container base image is almost 100 times less than VM image.
 
-![217493284-85411ae0-b283-4475-9729-6b082e35fc7d](https://github.com/veerarakesh56/Docker/assets/171412850/26a3d6a5-2ff5-4eab-a370-1ab668a080cb)
+![Screenshot ](https://github.com/veerarakesh56/Docker/assets/171412850/db68798c-7c1a-4f6a-a99d-e0fff320bb80)
 
 
 To provide a better picture of files and folders that containers base images have and files and folders that containers use from host operating system (not 100 percent accurate -> varies from base image to base image). Refer below.
